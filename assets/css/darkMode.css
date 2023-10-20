@@ -1,0 +1,61 @@
+body.dark {
+    background: var(--m-3-ref-neutral-neutral-12);
+}
+body.dark * {
+    color: var(--m-3-sys-dark-on-surface-variant) !important;
+}
+
+
+
+
+.dark .botao-selecionado:hover {
+    background: var(--m-3-ref-secondary-secondary-24) !important;
+    cursor: pointer;
+}
+
+.dark .botao-secundario {
+    border-color: var(--m-3-sys-dark-outline);
+}
+
+.dark .botao-primario {
+    background: var(--m-3-sys-dark-primary);
+}
+
+.dark svg > path {
+    fill: var(--m-3-sys-dark-on-surface-variant) !important;
+}
+
+.dark #backToTop{
+    background: var(--m-3-ref-secondary-secondary-70);
+}
+
+.dark .menu-item-active{
+    background: var(--m-3-ref-secondary-secondary-40) !important;
+}
+
+
+
+
+.dark .conteiner-primario{
+    background: var(--m-3-ref-neutral-neutral-30);
+}
+
+.dark .estilo-conteiner-secundario {
+    background: var(--m-3-sys-dark-surface-container-high);
+    border: 0;
+}
+
+.dark .SecundarioVerde{
+    background: var(--m-3-ref-secondary-secondary-40) !important;
+   
+}
+
+
+
+.dark .texto-do-rotulo-2,
+.dark .texto-do-rotulo {
+    color: var(--m-3-sys-dark-on-primary, #ffffff);
+}
+
+
+
